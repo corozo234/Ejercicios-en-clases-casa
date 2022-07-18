@@ -27,7 +27,7 @@ double Serie(int num)
     double s=0;
     for (int k = 2; k <= num; k++)
     {
-        s += (Factorial (k) / Potencia (6, k-1));
+        s += (Factorial (k) / Potencia (5, k-1));
     }
     return s;
 }
@@ -35,7 +35,7 @@ double Serie(int num)
 int main()
 {
     Serie(4);
-    cout<<endl<<"El factorial de 4 es "<<Factorial(4);
+    cout<<endl<<"El factorial de 5 es "<<Factorial(5);
 
     getch();
     return 0;
